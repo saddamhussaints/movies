@@ -3,14 +3,28 @@
 A new Flutter project.
 
 ## Getting Started
+## Steps to run project
+## Step 1
+ `clone the project from github`
 
-This project is a starting point for a Flutter application.
+## Step 2
+ `In command line run below commands one by one`
+ `flutter clean`
+ `flutter pub get`
+ `flutter run`
+ `And choose your comfortable browser`
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Overview
+`The Movies App is a Flutter application that allows users to browse a list of movies. Users can click on a movie to navigate to a detailed view, which displays comprehensive information about the selected movie, including the poster, publish date, rating, director, writer, and more.`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features
+`Movie List: Displays a scrollable list of movies on the main page.`
+## Movie Details: When a user clicks on a movie, they are taken to a detail page that showcases:
+`Movie Poster`
+`Publish Date`
+`Rating`
+`Director`
+`Writer`
+`Additional Information`
+
