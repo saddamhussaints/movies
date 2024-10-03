@@ -6,12 +6,15 @@ A new Flutter project.
 ## Steps to run project
 ## Step 1
  `clone the project from github`
-
-## Step 2
+## Steps 2
  `In command line run below commands one by one`
+## Step 3 
  `flutter clean`
+## Step 4 
  `flutter pub get`
+## Step 5 
  `flutter run`
+## Step 6
  `And choose your comfortable browser`
 
 
