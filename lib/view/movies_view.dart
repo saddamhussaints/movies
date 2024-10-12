@@ -35,7 +35,7 @@ class _MoviesPageState extends State<MoviesPage> {
                 if (viewModel.isLoading) {
                   return const Center(child: CircularProgressIndicator());
                 }
-                if (viewModel.movies.videos.results.isEmpty) {
+                if (viewModel.movies == null || viewModel.movies!.videos.results.isEmpty) {
                   return const Center(child: Text('No movies available'));
                 }
                 return GridView.builder(
@@ -45,7 +45,7 @@ class _MoviesPageState extends State<MoviesPage> {
                     crossAxisSpacing: 30,
                     childAspectRatio: 0.63, // Adjust for proper height of movie cards
                   ),
-                  itemCount: viewModel.movies.videos.results.length,
+                  itemCount: viewModel.movies!.videos.results.length,
                   itemBuilder: (context, index) {
                     return InkWell(
                         onTap: () {

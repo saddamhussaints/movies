@@ -7,10 +7,10 @@ import 'package:my_movies/models/movie_model.dart';
 import 'package:my_movies/services/api_service.dart';
 
 class MovieViewModel extends ChangeNotifier {
-  late MovieModel _movies;
+  MovieModel? _movies;
   bool _isLoading = false;
 
-  MovieModel get movies => _movies;
+  MovieModel? get movies => _movies;
   bool get isLoading => _isLoading;
 
   void fetchAndSaveResponse() async {
